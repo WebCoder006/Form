@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <style>
+        .textareabox{
+            margin-left: 5px;
+            font-weight: bold;
+            font-size: medium;
+            background-color: rgb(254, 180, 90);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: cyan;">__Job Application For *Software Developer's*__</h1>
+    <form style="background-color: red;">
+
+        <label for="name">Enter Your *Name* Here:</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+        <label for="email">Enter Your *E-mail Id*:</label>
+        <input type="text" id="email" name="email">
+        <br/>
+        <br/>
+        <label for="phonenumber">Enter Your *Phone Number*:</label>
+        <input type="tel" id="phonenumber" name="phonenumber">
+        <br/>
+        <br/>
+        <label for="files">Resume Of Your Documents:</label>
+        <input type="file" name="files" id="files">
+        <br/>
+        <br/>
+        <label for="counter">Experience Of Your *Work*</label>
+        <input type="number" name="counter" id="counter" min="0" max="65">
+        <br/>
+        <br/>
+    </fieldset>
+    <fieldset style="background-color: chartreuse;">
+        <legend style="background-color: rgb(255, 0, 102);">
+                        SkillS For __Software Developer__</legend>
+        <label for="checkbox">HTML (*Hyper Text Markup Language*)</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br/>
+        <br/>
+        <label for="checkbox">CSS (*Cascading Style Sheets*)</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br/>
+        <br/>
+        <label for="checkbox">Javascript, .Node Js, Python </label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+    </fieldset>
+    <label for="Education">Which Degree You Have ??</label>
+    <select name="Education" id="Education">
+
+         <option value="Master Of Computer Application *MCA*">Master Of Computer Application *MCA*</option>
+         <option value="Bachelors Of Computer Application *BCA*">Bachelors Of Computer Application *BCA*</option>
+         <option value="Doctor Of Philosphy *PHD*">Doctor Of Philosphy *PHD*</option>
+         <option value="Master Of Fine Arts *MFA*">Master Of Fine Arts *MFA*</option>
+         <option value="Master of Medicine & Surgery *MBBS*">Master of Medicine & Surgery *MBBS*</option>
+         <option value="Legislative Law Of Bachelor *LLB*">Legislative Law Of Bachelor *LLB*</option>
+         <option value="Master Of Commerce *M.COM*">Master Of Commerce *M.COM*</option>
+         <option value="Bachelor Of Technology *B-Tech*">Bachelor Of Technology *B-Tech*</option>
+         <option value="Master Of Arts *MA*">Master Of Arts *MA*</option>
+         <option value="Bachelor Of Arts *BA*">Bachelor Of Arts *BA*</option>
+         <option value="Master of Bussiness Adminsteration *MBA*">Master of Bussiness Adminsteration *MBA*</option>
+         <option value="National Of Defence Acedemy *NDA*">National Of Defence Acedemy *NDA*</option>
+         <option value="Civil Services *UPSC*">Civil Services *UPSC*</option>
+         <option value="Bachelor Of Science *B.SC*">Bachelor Of Science *B.SC*</option>
+         <option value="Master Of Doctor *MD*">Master Of Doctor *MD*</option>
+         <option value="Master Of Science *M.SC*">Master Of Science *M.SC*</option>
+         <option value="Bachelor Of Computer Science *BCS*">Bachelor Of Computer Science *BCS*</option>
+         <option value="Master Of Mathematical *MM*">Master Of Mathematical *MM*</option>
+         <option value="Bachelors Of Fine Arts *BFA*">Bachelors Of Fine Arts *BFA*</option>
+         <option value="Master Of Computer Science *MCS*">Master Of Computer Science *MCS*</option>
+
+    </select>
+    <br/>
+    <br/>
+    <!-- <br/> -->
+    <fieldset style="background-color: gold;">
+        <legend style="background-color: rgb(252, 181, 94);">Your Job's Prefrence:</legend>
+        <label for="radio">Full-Time</label>
+        <input type="radio" name="radio" id="radio">
+        <br/>
+        <br/>
+        <label for="radio">Part-Time</label>
+        <input type="radio" name="radio" id="radio">
+        <br/>
+        <br/>
+        <label for="radio">Half-Time</label>
+        <input type="radio" name="radio" id="radio">
+        <br/>
+        <br/>
+        <label for="radio">Free-lancing</label>
+        <input type="radio" name="radio" id="radio">
+        <br/>
+        <br/>
+    </fieldset>
+    <br/>
+    <div class="textareabox">
+        <label for="textarea">Additional *Comment's*...</label>
+        <br/>
+        <!-- <br/> -->
+        <textarea name="textarea" id="textarea" cols="30" rows="20"></textarea>
+        <input type="submit" value="Submit Application">
+    </div>
+
+    </form>
+</body>
+</html>
